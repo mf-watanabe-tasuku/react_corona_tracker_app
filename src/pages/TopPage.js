@@ -1,9 +1,13 @@
-import Title from '../components/Title'
+import Title from '../components/Title';
+import Selector from '../components/Selector';
 
 const TopPage = () => {
-  return (
-    <Title/>
-  )
-}
+    return (
+        <>
+            <Title />
+            <Selector />
+        </>
+    );
+};
 
-export default TopPage
+export default TopPage;
