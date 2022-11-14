@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Selector = (props) => {
     return (
         <div className="selector-container">
