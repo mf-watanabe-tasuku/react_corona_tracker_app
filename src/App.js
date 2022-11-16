@@ -31,13 +31,15 @@ function App() {
                         data[data.length - 2].Recovered,
                     totalRecovered: data[data.length - 1].Recovered,
                 })
-            );
+            )
+            .catch(err => alert("エラーが発生しました。ページをリロードして、もう一度トライしてください。"));
     };
 
     useEffect(() => {
         fetch('https://api.covid19api.com/summary')
             .then((res) => res.json())
-            .then((data) => setAllCountriesData(data.Countries));
+            .then((data) => setAllCountriesData(data.Countries))
+            .catch(err => alert("エラーが発生しました。ページをリロードして、もう一度トライしてください。"));
     }, []);
 
     return (
