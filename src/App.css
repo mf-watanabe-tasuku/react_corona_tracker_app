@@ -24,11 +24,11 @@ body {
     min-height: 100vh;
     background: linear-gradient(
         250.6deg,
-        #6a70ff 7.3%,
-        rgba(255, 53, 53, 0.4) 98.63%
+        rgba(34, 66, 247, 0.694) 7.3%,
+        rgba(141, 255, 95, 0.4) 98.63%
     );
     background-size: 400% 400%;
-    /* animation: gradient 12s ease infinite; */
+    animation: gradient 12s ease infinite;
 }
 
 @keyframes gradient {
@@ -91,8 +91,8 @@ h1 {
     color: #fff;
     background: linear-gradient(
         250.6deg,
-        #6a70ff 7.3%,
-        rgba(255, 53, 53, 0.4) 98.63%
+        rgba(253, 230, 51, 0.75) 7.3%,
+        rgba(255, 176, 7, 0.4) 98.63%
     );
 }
 
@@ -168,11 +168,11 @@ h1 {
     padding: 4rem 3rem;
     background: linear-gradient(
         250.6deg,
-        #6a70ff 7.3%,
-        rgba(255, 53, 53, 0.4) 98.63%
+        rgba(106, 111, 255, 0.653) 7.3%,
+        rgba(40, 249, 103, 0.4) 98.63%
     );
     background-size: 300% 300%;
-    /* 	animation: gradient 14s ease infinite; */
+    animation: gradient 10s ease infinite;
 }
 
 .card-container {
@@ -207,7 +207,7 @@ h1 {
 
 /* Loading */
 .loading {
-    color: #fe5c5c;
+    color: #1eb439;
     font-size: 90px;
     text-indent: -9999em;
     overflow: hidden;

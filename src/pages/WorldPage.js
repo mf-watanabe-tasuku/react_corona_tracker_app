@@ -5,7 +5,7 @@ import Card from '../components/Card';
 
 const WorldPage = ({ allCountriesData }) => {
     return (
-        <div>
+        <div className='world-page-container'>
             <Header />
             <Title />
             <Card allCountriesData={allCountriesData} />
