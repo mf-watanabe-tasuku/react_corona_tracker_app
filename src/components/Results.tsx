@@ -1,7 +1,8 @@
 import React from 'react';
 import Loading from './Loading';
+import { ResultsType } from '../types';
 
-const Results = ({ countryData, loading }) => {
+const Results = ({ countryData, loading }: ResultsType) => {
     const { date, newConfirmed, totalConfirmed, newRecovered, totalRecovered } = countryData;
     return (
         <div className='results-container'>
