@@ -1,6 +1,16 @@
 import React from 'react';
 
-const Card = ({ allCountriesData }) => {
+interface SingleCountriesDataType {
+    Country: string,
+    NewConfirmed: number,
+    TotalConfirmed: number,
+}
+
+interface CardType {
+    allCountriesData: Array<SingleCountriesDataType>
+}
+
+const Card = ({ allCountriesData }: CardType) => {
     return (
         <div className='card-container'>
             {allCountriesData.map((singleData, index) =>
